@@ -22,6 +22,7 @@ namespace WindowsFormsApplication1
             int test = 2;
             test *= test;
             test += test;
+            test += (test*test);
             MessageBox.Show("test=" + test);
         }
     }
